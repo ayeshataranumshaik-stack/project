@@ -1,0 +1,184 @@
+.maincomponent
+{
+
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.boxcls
+{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 12px;
+    border-width: 10px;
+    margin: 5px;
+}
+.box
+{
+    width: 180px;
+    height: 180px;
+    font-size: 6em;
+    border-radius: 16px;
+    background-color: skyblue;
+    margin: 4px;
+}
+#box1
+{
+    background-color: blueviolet;
+    border-radius: 12px;
+    border-color: black;
+    transition: 4s;
+}
+#box2
+{
+    background-color: yellow;
+    border-radius: 12px;
+    transition: 4s;
+}
+#box3
+{
+    background-color: magenta;
+    border-radius: 12px;
+    transition: width 4s;
+}
+#box4
+{
+    background-color: pink;
+    border-radius: 12px;
+    transition: width 4s;
+}
+#box5
+{
+    background-color: greenyellow;
+    border-radius: 12px;
+    transition: width 4s;
+}
+#box5:hover
+{
+    background-color: burlywood;
+    width: 650px;
+    height: 450px;
+}
+#box1:hover
+{
+    background-color: rosybrown;
+    width: 650px;
+    height: 450px;
+}
+#box2:hover
+{
+    background-color: bisque;
+    width: 650px;
+    height: 450px;
+}
+#box3:hover
+{
+    background-color: beige;
+    width: 650px;
+    height: 450px;
+}
+#box4:hover
+{
+    background-color: azure;
+    width: 650px;
+    height: 450px;
+}
+#box5:hover 
+{
+    background-color: aqua;
+    width: 650px;
+    height: 450px;
+}
+.newboxs
+{
+    text-align: center;
+    background-color: black;
+    display: flex;
+    border: 2px soplid cornflowerblue;
+}
+.newboxs
+{
+    width: 180opx;
+    height: 180px;
+    font-size: 6em;
+    border-radius: 16px;
+    background-color: yellow;
+    margin: 4px;
+    border-radius: 12px;
+    transition: width 2s;
+}
+#b1
+{
+    background-color: lavender;
+    transition-timing-function: linear;
+
+
+    
+}
+#b1:hover
+{
+    background-color: azure;
+    width: 300px;
+    height: 300px;
+}
+#b2 
+{
+    background-color: blue;
+    transition-timing-function: linear;
+}
+#b2:hover
+{
+    background-color: beige;
+    width: 300px;
+    height: 300px;
+}
+#b3
+{
+    background-color: lawngreen;
+    transition-timing-function: ease;
+}
+#b3:hover
+{
+    background-color:  rgb(33, 66, 33);
+    width: 300px;
+    height: 300px;
+}
+#b4
+{
+    background-color: antiquewhite;
+    transition-timing-function: ease;
+}
+#b4:hover
+{
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 300px;
+}
+#b5
+{
+    background-color: aqua;
+    transition-timing-function: ease;
+}
+#b5:hover 
+{
+    background-color: palevioletred;
+    width: 300px;
+    height: 300px;
+}
+.newroate
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+    background-color: aqua;
+    margin: 4px;
+    border-radius: 12px;
+    transition: width 2s,height 2s,transform 2s;
+}
+.newrotate:hover 
+{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    transform: rotate(180deg);
+}
